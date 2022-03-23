@@ -171,6 +171,7 @@ input{
 }
 /* wild help 1 end*/
 
+/* WILD-my-team-guide start */
 .wild-my-team-guide-wrapper {
     padding: 4.2vh 0 3.2vh;
     text-align: center;
@@ -319,7 +320,6 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin: 7vh 0; */
 }
 
 .wild-my-team-guide-scroll__img {
@@ -365,3 +365,4 @@ input{
         width: 7px;
     }
 }
+/* WILD-my-team-guide end */

@@ -113,10 +113,7 @@ input{
 
 /*Specification end*/
 
-
-
-
-
+/* WILD-s0-central-survey start */
 .wild-s0-central-survey {
     padding: 2vh 0;
     height: 100vh;
@@ -240,19 +237,16 @@ input{
     }
 
     .wild-s0-central-survey-txt__bold {
-        font-size: 50px;
         font-size: 3vw;
         margin-bottom: 50px;
     }
 
     .wild-s0-central-survey-txt__regular {
-        font-size: 50px;
         font-size: 3vw;
         margin-bottom: 50px;
     }
 
     .wild-s0-central-survey-txt__italic {
-        font-size: 44px;
         font-size: 2.5vw;
     }
 
@@ -262,3 +256,4 @@ input{
     }
     
 }
+/* WILD-s0-central-survey start */
