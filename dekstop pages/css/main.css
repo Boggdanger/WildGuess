@@ -1,0 +1,264 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;0,800;1,500&family=Roboto:wght@400;700;900&display=swap');
+
+/*Specification star*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #fff;
+    background: linear-gradient(180deg, #320D6F 0%, #7160D8 99.96%, #484848 99.97%, #707070 99.98%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+input:focus, button:focus { 
+	outline: none 
+}
+
+button {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0 2%;
+    height: 100vh;
+}
+
+.main-title {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 8.8vw;
+}
+
+.btn {
+    color: #fff;
+    background: #F19800;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-weight: 800;
+    width: 65%;
+    height: 7.4vh;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.btn-no-bg {
+    background: none;
+}
+
+.btn-red-bg {
+    background: #FB5139;
+}
+
+.btn-head {
+    color: #fff;
+    background: #260B52;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-weight: 800;
+    width: 33%;
+    height: 6vh;
+    border-radius: 10px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+/*Specification end*/
+
+
+
+
+
+.wild-s0-central-survey {
+    padding: 2vh 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wild-s0-central-survey-header {
+    display: flex;
+    font-weight: 800;
+    font-size: 3.5vw;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.wild-s0-central-survey-header__link {
+    color: #fff;
+}
+
+.wild-s0-central-survey-header__qr {
+    width: 14vw;
+    height: 14vw;
+    position: absolute;
+    top: 5.5vw;
+}
+
+.wild-s0-central-survey-header__qr-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.wild-s0-central-survey-logo {
+    width: 34vw;
+    margin-top: 5vh;
+}
+
+.wild-s0-central-survey-logo__img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.wild-s0-central-survey-txt {
+    width: 65%;
+    text-align: center;
+    margin-top: -1.7vw;
+}
+
+.wild-s0-central-survey-txt__bold {
+    font-size: 4.68vw;
+    font-weight: 700;
+    margin-bottom: 8vh;
+}
+
+.wild-s0-central-survey-txt__regular {
+    font-size: 4.68vw;
+    margin-bottom: 6vh;
+}
+
+.wild-s0-central-survey-txt__italic {
+    font-size: 3.5vw;
+    font-style: italic;
+}
+
+.wild-s0-central-survey-bg-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 23vw;
+    height: 19vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.wild-s0-central-survey-bg-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20vw;
+    height: 18.2vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.wild-s0-central-survey-bg-left__img,
+.wild-s0-central-survey-bg-right__img {
+    width: auto;
+    height: 100%;
+}
+
+@media (min-width: 1370px) { 
+    .wild-s0-central-survey-header {
+        font-size: 40px;
+    }
+
+    .wild-s0-central-survey-logo {
+        width: 10vw;
+        margin-top: 5vh;
+    }
+
+    .wild-s0-central-survey-txt {
+        margin-top: 0;
+    }
+
+    .wild-s0-central-survey-header__qr {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 70px;
+    }
+
+    .wild-s0-central-survey-txt {
+        width: 45%;
+    }
+
+    .wild-s0-central-survey-txt__bold {
+        font-size: 50px;
+        font-size: 3vw;
+        margin-bottom: 50px;
+    }
+
+    .wild-s0-central-survey-txt__regular {
+        font-size: 50px;
+        font-size: 3vw;
+        margin-bottom: 50px;
+    }
+
+    .wild-s0-central-survey-txt__italic {
+        font-size: 44px;
+        font-size: 2.5vw;
+    }
+
+    .wild-s0-central-survey-bg-right,
+    .wild-s0-central-survey-bg-left {
+        height: 13.2vw;
+    }
+    
+}
