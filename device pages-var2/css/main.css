@@ -327,6 +327,65 @@ input{
     height: 100%;
 }
 
+/* WILD-my-team-popup */
+.wild-my-team-guide-pop{
+    width: 85vw;
+    margin: 0 auto;
+    position: absolute;
+    background: #fff;
+    left: 0;
+    right: 0;
+    top: calc(50% - 12vh);
+    border-radius: 11px;
+    z-index: 5;
+    color: #7C8691;
+}
+
+.wild-my-team-guide-pop__img-error {
+    margin-top: -8%;
+    width: 23vw;
+    height: auto;
+}
+
+.wild-my-team-guide-pop__title {
+    font-size: 4.7vw;
+    margin: 2vh 0 1.7vh;
+}
+
+.wild-my-team-guide-pop__desc {
+    font-size: 3.7vw;
+    margin-bottom: 2.8vh;
+}
+
+.wild-my-team-guide-pop__btn-inner {
+    display: flex;
+    background: #F1F5F8;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.6vh 4vw;
+    border-radius: 0 0 11px 11px;
+}
+
+.wild-my-team-guide-pop__btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6vw;
+    font-weight: 700;
+    display: flex;
+    width: 37vw;
+    color: #9BA9B9;
+    text-align: center;
+    justify-content: center;
+    background: #D0DEEB;
+    border-radius: 200px;
+    height: 4vh;
+    align-items: center;
+}
+
+.wild-my-team-guide-pop__btn_red {
+    background: #FB4B4B;
+    color: #fff;
+}
+
 @media (max-width: 376px) {
 
     .wild-my-team-guide-list__item:not(:last-of-type) {
