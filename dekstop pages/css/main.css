@@ -288,6 +288,12 @@ input{
     }
 }
 
+@media (orientation: portrait) { 
+    .wild-s0-central-survey-logo {
+        margin-top: 15vh;
+    }
+}
+
 /* WILD-s1-central start */
 .wild-s1-central {
     padding: 6vh 0 2vh;
@@ -438,14 +444,20 @@ input{
     }
 }
 
+@media (orientation: portrait) { 
+    .wild-s1-central {
+        padding: 6vh 0 30vh;
+    }
+}
+
 /* WILD-s3-central-guide-1 start */
 .wild-s3-central-guide-1 {
-    padding: 3vh 0 2vh;
+    padding: 3vh 0 8vh;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .digits-header_wild-s3-central-guide-1 {
@@ -469,9 +481,47 @@ input{
 }
 
 /* circle */
+.rating {
+    display: flex;
+    margin-right: auto;
+    padding-left: 4vh;
+    margin-top: 6vh;
+}
+
+.rating__wrapper {
+    width: 36vw;
+}
+
+.rating__title {
+    font-size: 2.6vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 4vh;
+}
+
+.rating__item-wrapper{
+    display: flex;
+}
+
+.rating__line {
+    height: 49vh;
+    width: 0.35vw;
+    background: #fff;
+    margin-left: -0.2vw;
+    margin-top: 3.5vh;
+}
+
 .rating-item {
     display: flex;
     align-items: center;
+}
+
+.rating-item:not(:last-of-type) {
+    margin-bottom: 1.2vh;
+}
+
+.rating__item-wrapper {
+    position: relative;
 }
 
 .rating-item__number {
@@ -480,11 +530,12 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 7vh;
     border-radius: 200px;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    margin-right: 2vw;
 }
 
 .rating-item__circle-wrapper {
@@ -494,19 +545,632 @@ input{
 }
 
 .rating-item__x-line {
-    width: 30px;
+    width: 2.2vw;
     height: 4px;
     display: block;
     background: #fff;
-    margin-right: -15px;
+    margin-right: 0px;
+    position: absolute;
+    left: -1.1vw;
 }
 
 .rating-item__circle {
-    width: 10vw;
-    height: 10vw;
     display: block;
-    background: #fff;
-    opacity: .4;
+    opacity: .8;
     border-radius: 50%;
     position: absolute;
+    background: #57BCFF;
+    mix-blend-mode: screen;
+}
+
+.rating-item:nth-child(1) .rating-item__circle {
+    width: 4vw;
+    height: 4vw;
+}
+
+.rating-item:nth-child(2) .rating-item__circle {
+    width: 7vw;
+    height: 7vw;
+}
+
+.rating-item:nth-child(3) .rating-item__circle {
+    width: 10vw;
+    height: 10vw;
+}
+
+.rating-item:nth-child(4) .rating-item__circle {
+    width: 15vw;
+    height: 15vw;
+}
+
+.rating-item:nth-child(5) .rating-item__circle {
+    width: 9vw;
+    height: 9vw;
+}
+
+.rating-item:nth-child(6) .rating-item__circle {
+    width: 8vw;
+    height: 8vw;
+}
+
+.rating-item:nth-child(7) .rating-item__circle {
+    width: 6vw;
+    height: 6vw;
+}
+
+.rating-item__circle_progress {
+    height: 5vw;
+    display: block;
+    opacity: .8;
+    position: absolute;
+    background: #57BCFF;
+    mix-blend-mode: screen;
+}
+
+.rating-item:nth-child(1n) .rating-item__circle_progress {
+    width: 3.6vw;
+    opacity: .4;
+}
+
+.rating-item:nth-child(2n) .rating-item__circle_progress {
+    width: 7.6vw;
+    opacity: .5;
+}
+
+.rating-item:nth-child(3n) .rating-item__circle_progress {
+    width: 10.6vw;
+    opacity: .6;
+}
+
+.rating-item:nth-child(4n) .rating-item__circle_progress {
+    width: 14.6vw;
+    opacity: .7;
+}
+
+.rating-item:nth-child(5n) .rating-item__circle_progress {
+    width: 16.6vw;
+    opacity: .8;
+}
+
+.rating-item:nth-child(6n) .rating-item__circle_progress {
+    width: 21.6vw;
+    opacity: .9;
+}
+
+.rating-item:nth-child(7n) .rating-item__circle_progress {
+    width: 25.6vw;
+}
+
+@media (min-width: 1370px) { 
+    .wild-s3-central-guide-1-txt {
+        font-size: 1.9vw;
+        width: 34vw;
+        text-align: center;
+        margin-top: -4.2vh;
+    }
+
+    .rating {
+        margin-top: 5vh;
+    }
+
+    .rating__title {
+        font-size: 2.1vw;
+        margin-bottom: 2vh;
+    }
+
+    .rating-item__number {
+        font-size: 1.95vw;
+    }
+
+    .rating-item:nth-child(1) .rating-item__circle {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .rating-item:nth-child(2) .rating-item__circle {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .rating-item:nth-child(3) .rating-item__circle {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .rating-item:nth-child(4) .rating-item__circle {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .rating-item:nth-child(5) .rating-item__circle {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .rating-item:nth-child(6) .rating-item__circle {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .rating-item:nth-child(7) .rating-item__circle {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .rating-item__circle_progress {
+        height: 3vw;
+    }
+}
+
+/* WILD-s4-central-card-1 start */
+.wild-s4-central-card-1 {
+    padding: 2vh 0 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.digits-header_margin-auto {
+    margin: 0 auto;
+}
+
+.wild-s4-central-card-txt {
+    font-size: 2.9vw;
+    width: 58vw;
+    text-align: center;
+    margin-top: -4vh;
+}
+
+.wild-s4-central-card-txt__bold {
+    font-weight: 700;
+}
+
+.wild-s4-central-card-image {
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 2vw;
+    width: 31vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.wild-s4-central-card-answer {
+    background: #3E2C8E;
+    display: flex;
+    width: 64vw;
+    border-radius: 2.5vh;
+    padding: 5vh 0vh 5vh;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.wild-s4-central-card-answer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wild-s4-central-card-answer-item__title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.1vw;
+}
+
+.wild-s4-central-card-answer-item__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F19800;
+    width: 26vw;
+    height: 6.5vh;
+    border-radius: 200px;
+    font-size: 3.7vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1vh;
+}
+
+.wild-s4-central-card-answer-item__by {
+    font-size: 2.1vw;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+@media (min-width: 1370px) { 
+    .wild-s4-central-card-1 {
+        padding: 2vh 0 3vh;
+    }
+
+    .wild-s4-central-card-txt {
+        font-size: 1.9vw;
+        width: 58vw;
+        text-align: center;
+        margin-top: 0vh;
+    }
+
+    .wild-s4-central-card-image {
+        width: 22vw;
+    }
+
+    .wild-s4-central-card-answer-item__number {
+        font-size: 2.7vw;
+        width: 22vw;
+    }
+
+}
+
+@media (orientation: portrait) { 
+    .wild-s4-central-card-1 {
+        padding: 2vh 0 28vh;
+    }
+}
+
+/* wild-s4-central-card-2 */
+.wild-s4-central-card-2 {
+    padding: 1vh 0 1vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wild-s4-central-card-txt_width {
+    font-size: 2.9vw;
+    width: 51vw;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.wild-s4-central-card-image_margin {
+    margin-top: 3vh;
+}
+
+.wild-card-closet-answer {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    font-size: 2.4vw;
+    font-weight: 800;
+    width: 55vw;
+}
+
+.wild-card-closet-answer__desc {
+    font-style: italic;
+    font-size: 2.6vw;
+    margin-left: 1vh;
+}
+
+.wild-central-cup {
+    position: relative;
+    margin-left: auto;
+}
+
+.wild-central-cup__numbers {
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0.3vw;
+    font-size: 2.2vw;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgb(0 0 0 / 30%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.wild-central-cup__img {
+    width: 5vw;
+    height: auto;
+}
+
+.wild-s4-central-card-answer_resize {
+    width: 37vw;
+    padding: 1.5vh 0vh 2.1vh;
+    margin-top: 0vh;
+}
+
+.wild-s4-central-card-answer-item__title_size {
+    font-size: 3.1vw;
+}
+
+.wild-s4-central-card-answer-item__number_resize {
+    height: 8.5vh;
+}
+
+.wild-s1-central-dialogue_margin {
+    margin-top: 2vh;
+}
+
+.wild-s0-central-survey-bg-left_top {
+    top: 0;
+}
+
+.wild-s0-central-survey-bg-left__img_top {
+    transform: scale(1, -1);
+}
+
+@media (min-width: 1080px) and (max-width: 1100px) { 
+    .wild-s1-central-dialogue__txt {
+        top: 1.4vh;
+    }
+}
+
+@media (min-width: 1370px) { 
+    .wild-s4-central-card-txt_width {
+        font-size: 1.9vw;
+    }
+
+    .wild-card-closet-answer {
+        font-size: 1.4vw;
+        width: 36vw;
+    }
+
+    .wild-card-closet-answer__desc {
+        font-size: 1.6vw;
+    }
+
+    .wild-central-cup__img {
+        width: 3vw;
+    }
+
+    .wild-central-cup__numbers {
+        font-size: 1.2vw;
+    }
+
+    .wild-s4-central-card-image_margin {
+        width: 10vw;
+        border-radius: 1vw;
+    }
+
+    .wild-s4-central-card-answer-item__title_size {
+        font-size: 2.1vw;
+    }
+}
+
+@media (orientation: portrait) { 
+    .wild-s4-central-card-2 {
+        padding: 2vh 0 28vh;
+    }
+}
+
+/* wild-s4-central-card-3-guide-2 start */
+.wild-s4-central-card-3-guide-2 {
+    padding: 6vh 0 12vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.digits-header__txt_title {
+    font-size: 4.4vw;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.digits-header__image_width-title {
+    width: 38vw;
+}
+
+.wild-s4-central-prize {
+    background: #39287e;
+    width: 44vw;
+    height: 43vw;
+    border-radius: 2.5vh;
+    padding: 5.3vh 0vh 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wild-s4-central-prize__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wild-s4-central-prize__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5.1vw;
+    border-radius: 50%;
+    width: 6vw;
+    height: 6vw;
+    font-weight: 900;
+    border: 0.3vw #fff solid;
+    margin-right: 1vw;
+    background: #F31B46;
+}
+
+.wild-s4-central-prize__number {
+    font-size: 3.2vw;
+    margin-top: -0.5vh;
+}
+
+.wild-s4-central-prize__name {
+    font-size: 3.4vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wild-s4-central-card-3-guide-2-names__item {
+    text-align: center;
+    font-size: 3.4vw;
+    font-style: italic;
+}
+
+.wild-central-cup_margin {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wild-central-cup__img_width {
+    width: 11.6vw;
+}
+
+.wild-central-cup__numbers_size {
+    top: 1.7vw;
+    font-size: 3.5vw;
+}
+
+@media (min-width: 1370px) { 
+    .wild-s4-central-card-3-guide-2 {
+        padding: 6vh 0 6vh;
+    }
+
+    .digits-header__txt_title {
+        font-size: 3.4vw;
+    }
+
+    .digits-header__image_width-title {
+        width: 32vw;
+    }
+
+    .wild-central-cup__img_width {
+        width: 9.6vw;
+    }
+
+    .wild-central-cup__numbers_size {
+        top: 1.7vw;
+        font-size: 2.7vw;
+    }
+
+    .wild-s4-central-card-3-guide-2-names__item {
+        text-align: center;
+        font-size: 2.4vw;
+        font-style: italic;
+    }
+
+    .wild-s4-central-prize__circle {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .wild-s4-central-prize__number {
+        font-size: 2.4vw;
+    }
+
+    .wild-s4-central-prize {
+        margin-top: 4vh;
+    }
+}
+
+@media (orientation: portrait) {
+    .wild-s4-central-card-3-guide-2 {
+        padding: 6vh 0 35vh;
+    }
+
+    .wild-s4-central-prize {
+        padding: 3.3vh 0vh 4vh;
+    }
+}
+
+/* WILD-s4-central-card-4 start */
+.wild-s4-central-card-4 {
+    padding: 6vh 0 6vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wild-s4-central-prize__item-inner {
+    display: flex;
+    width: 32vw;
+}
+
+.wild-s4-central-prize-wrappers {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wild-s4-central-prize_size {
+    width: 47.5vw;
+    height: 51vw;
+    align-items: center;
+}
+
+.wild-central-cup__numbers_resize {
+    top: 1.2vw;
+}
+
+.wild-central-cup__img_size {
+    width: 7.6vw;
+}
+
+.wild-s4-central-prize__item-inner:nth-child(1) .wild-s4-central-prize__circle {
+    background: #F31B46;
+}
+
+.wild-s4-central-prize__item-inner:nth-child(2) .wild-s4-central-prize__circle {
+    background: #1E67F3;
+}
+
+.wild-s4-central-prize__item-inner:nth-child(3) .wild-s4-central-prize__circle {
+    background: #058A84;
+}
+
+.wild-s4-central-prize__item-inner:nth-child(4) .wild-s4-central-prize__circle {
+    background: #F9A00C;
+}
+
+.wild-s4-central-prize__item-inner:nth-child(5) .wild-s4-central-prize__circle {
+    background: #44217C;
+}
+
+.wild-s4-central-prize:nth-child(2) .wild-s4-central-prize__item-inner:nth-child(1) .wild-s4-central-prize__circle {
+    background: #4FAD53;
+}
+
+.wild-s4-central-prize:nth-child(2) .wild-s4-central-prize__item-inner:nth-child(2) .wild-s4-central-prize__circle {
+    background: #FE4C09;
+}
+
+.wild-s4-central-prize:nth-child(2) .wild-s4-central-prize__item-inner:nth-child(3) .wild-s4-central-prize__circle {
+    background: #00B3FF;
+}
+
+.wild-s4-central-prize:nth-child(2) .wild-s4-central-prize__item-inner:nth-child(4) .wild-s4-central-prize__circle {
+    background: #B70642;
+}
+
+.wild-s4-central-prize:nth-child(2) .wild-s4-central-prize__item-inner:nth-child(5) .wild-s4-central-prize__circle {
+    background: #706FB0;
+}
+
+@media (min-width: 1370px) { 
+    .wild-central-cup__img_size {
+        width: 4.6vw;
+    }
+
+    .wild-s4-central-prize__name {
+        font-size: 2.4vw;
+    }
+
+    .wild-s4-central-prize_size {
+        height: 28vw;
+    }
+
+    .wild-central-cup__numbers_resize {
+        top: 0.8vw;
+    }
+}
+
+@media (orientation: portrait) { 
+    .wild-s4-central-card-4 {
+        padding: 6vh 0 27vh;
+    }
 }
