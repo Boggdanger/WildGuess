@@ -256,6 +256,28 @@ input{
     }
     
 }
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .wild-s0-central-survey-logo {
+        width: 24vw;
+    }
+
+    .wild-s0-central-survey-txt__bold {
+        font-size: 3.68vw;
+    }
+
+    .wild-s0-central-survey-txt__regular {
+        font-size: 3.68vw;
+    }
+    
+}
+
+@media (min-width: 1900px) and (max-width: 2000px) { 
+    .wild-s0-central-survey-logo {
+        width: 26vw;
+    }
+}
+
 /* WILD-s0-central-survey start */
 
 .wild-s0-central-survey-logo_large {
@@ -292,6 +314,12 @@ input{
     .wild-s0-central-survey-logo {
         margin-top: 15vh;
     }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .wild-s0-central-survey-logo {
+        width: 42vw;
+    }  
 }
 
 /* WILD-s1-central start */
@@ -436,6 +464,15 @@ input{
     }
 }
 
+@media (min-width: 1900px) {
+    .wild-s1-central-dialogue__txt {
+        font-size: 1.2vw;
+        width: 34vw;
+        right: 3.3vw;
+        top: 1.8vw;
+    } 
+}
+
 @media (max-width: 802px) { 
     .wild-s1-central-dialogue__txt {
         font-size: 2.4vw;
@@ -447,6 +484,41 @@ input{
 @media (orientation: portrait) { 
     .wild-s1-central {
         padding: 6vh 0 30vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .wild-s1-central {
+        padding: 5vh 0 2vh;
+    }
+
+    .join-game-header {
+        border: 0.4vw #fff solid;
+        height: 13.2vh;
+    } 
+
+    .number-score-header {
+        border: 0.4vw #fff solid;
+    }
+
+    .wild-s1-central-main-txt {
+        width: 79%;
+        font-size: 3.4vw;
+        margin-top: 1vh;
+    }
+
+    .wild-s1-central-dialogue__txt {
+        right: 2.5vw;
+        top: 3.8vh;
+    }
+}
+
+@media (max-width: 1020px) { 
+    .wild-s1-central-dialogue__txt {
+        font-size: 2.2vw;
+        width: 63vw;
+        top: 3.4vh;
+        right: 4vw;
     }
 }
 
@@ -563,37 +635,28 @@ input{
     mix-blend-mode: screen;
 }
 
-.rating-item:nth-child(1) .rating-item__circle {
+
+.circle_50 {
     width: 4vw;
     height: 4vw;
 }
 
-.rating-item:nth-child(2) .rating-item__circle {
-    width: 7vw;
-    height: 7vw;
-}
-
-.rating-item:nth-child(3) .rating-item__circle {
+.circle_150 {
     width: 10vw;
     height: 10vw;
 }
 
-.rating-item:nth-child(4) .rating-item__circle {
-    width: 15vw;
-    height: 15vw;
+.circle_200 {
+    width: 13.5vw;
+    height: 13.5vw;
 }
 
-.rating-item:nth-child(5) .rating-item__circle {
-    width: 9vw;
-    height: 9vw;
+.circle_100 {
+    width: 7.5vw;
+    height: 7.5vw;
 }
 
-.rating-item:nth-child(6) .rating-item__circle {
-    width: 8vw;
-    height: 8vw;
-}
-
-.rating-item:nth-child(7) .rating-item__circle {
+.circle_70 {
     width: 6vw;
     height: 6vw;
 }
@@ -639,6 +702,7 @@ input{
 
 .rating-item:nth-child(7n) .rating-item__circle_progress {
     width: 25.6vw;
+    opacity: 1;
 }
 
 @media (min-width: 1370px) { 
@@ -662,43 +726,75 @@ input{
         font-size: 1.95vw;
     }
 
-    .rating-item:nth-child(1) .rating-item__circle {
-        width: 3vw;
-        height: 3vw;
+    .circle_50 {
+        width: 3.5vw;
+        height: 3.5vw;
     }
 
-    .rating-item:nth-child(2) .rating-item__circle {
-        width: 5vw;
-        height: 5vw;
-    }
-
-    .rating-item:nth-child(3) .rating-item__circle {
+    .circle_150 {
         width: 6vw;
         height: 6vw;
     }
-
-    .rating-item:nth-child(4) .rating-item__circle {
+ 
+    .circle_200 {
         width: 7vw;
         height: 7vw;
     }
-
-    .rating-item:nth-child(5) .rating-item__circle {
-        width: 6vw;
-        height: 6vw;
+ 
+    .circle_100 {
+        width: 5.3vw;
+        height: 5.3vw;
     }
 
-    .rating-item:nth-child(6) .rating-item__circle {
-        width: 5vw;
-        height: 5vw;
-    }
-
-    .rating-item:nth-child(7) .rating-item__circle {
-        width: 3vw;
-        height: 3vw;
+    .circle_70 {
+        width: 4.1vw;
+        height: 4.1vw;
     }
 
     .rating-item__circle_progress {
         height: 3vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .rating-item__number {
+        height: 6vh;
+        font-size: 2.2vw;
+    }
+
+    .rating-item__circle_progress {
+        height: 3.5vw;
+    }
+
+    .rating__line {
+        height: 43vh;
+        width: 0.35vw;
+        margin-top: 3.2vh;
+    }
+
+    .circle_50 {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+
+    .circle_150 {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    .circle_200 {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .circle_100 {
+        width: 5.8vw;
+        height: 5.8vw;
+    }
+
+    .circle_70 {
+        width: 4.5vw;
+        height: 4.5vw;
     }
 }
 
@@ -744,6 +840,7 @@ input{
     justify-content: space-between;
     justify-content: space-evenly;
     margin-top: 3vh;
+    z-index: 2;
 }
 
 .wild-s4-central-card-answer-item {
@@ -804,9 +901,79 @@ input{
 
 }
 
+@media (min-width: 1900px) and (max-width: 2200px) { 
+    .digits-header__image_width {
+        width: 8vw;
+    }
+
+    .wild-s4-central-card-image {
+        width: 34vw;
+    }
+
+    .wild-s4-central-card-answer-item__by {
+        font-size: 1.6vw;
+    }
+
+    .wild-s4-central-card-1 {
+        padding: 2vh 0 5vh;
+    }
+}
+
+@media (min-width: 2200px) { 
+    .wild-s4-central-card-answer-item__by {
+        font-size: 1.5vw;
+    }
+
+    .wild-s4-central-card-answer-item__title {
+        font-size: 1.5vw;
+    }
+
+    .wild-s4-central-card-answer-item__number {
+        font-size: 2.2vw;
+    }
+
+    .digits-header__image_width {
+        width: 8vw;
+    }
+
+    .wild-s4-central-card-image {
+        width: 25vw;
+    }
+}
+
 @media (orientation: portrait) { 
     .wild-s4-central-card-1 {
         padding: 2vh 0 28vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) { 
+    .wild-s4-central-card-1 {
+        padding: 2vh 0 7vh;
+    }
+
+    .wild-s4-central-card-answer {
+        padding: 4vh 0vh 4vh;
+    }
+
+    .wild-s4-central-card-answer-item__by {
+        font-size: 1.8vw;
+    }
+
+    .wild-s4-central-card-answer-item__number {
+        font-size: 2.7vw;
+    }
+
+    .wild-s4-central-card-answer-item__title {
+        font-size: 1.8vw;
+    }
+
+    .wild-s4-central-card-answer {
+        margin-top: 0vw;
+    }
+
+    .wild-s4-central-card-txt {
+        margin-top: -2vh;
     }
 }
 
@@ -937,6 +1104,40 @@ input{
 @media (orientation: portrait) { 
     .wild-s4-central-card-2 {
         padding: 2vh 0 28vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) { 
+    .digits-header__image_width {
+        width: 10vw;
+    }
+
+    .wild-s4-central-card-txt_width {
+        font-size: 2vw;
+    }
+
+    .wild-card-closet-answer {
+        font-size: 2vw;
+    }
+
+    .wild-s4-central-card-answer-item__title_size {
+        font-size: 2.1vw;
+    }
+
+    .wild-s4-central-card-image {
+        width: 20vw;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2200px) { 
+    .wild-s4-central-card-image_margin {
+        width: 30vw;
+    }
+}
+
+@media (min-width: 2200px) {
+    .wild-s4-central-card-image_margin {
+        width: 15vw;
     }
 }
 
@@ -1076,6 +1277,20 @@ input{
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1300px) { 
+    .wild-s4-central-prize {
+        height: 38vw;
+    }
+
+    .wild-central-cup__img_width {
+        width: 10.6vw;
+    }
+
+    .wild-central-cup__numbers_size {
+        top: 1.2vw;
+    }
+}
+
 /* WILD-s4-central-card-4 start */
 .wild-s4-central-card-4 {
     padding: 6vh 0 6vh;
@@ -1101,6 +1316,7 @@ input{
     width: 47.5vw;
     height: 51vw;
     align-items: center;
+    z-index: 2;
 }
 
 .wild-central-cup__numbers_resize {
@@ -1172,5 +1388,32 @@ input{
 @media (orientation: portrait) { 
     .wild-s4-central-card-4 {
         padding: 6vh 0 27vh;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) { 
+    .wild-central-cup__img_size {
+        width: 7.2vw;
+    }
+
+    .wild-s4-central-prize_size {
+        width: 47.5vw;
+        height: 42vw;
+    }
+}
+
+
+
+@media (min-width: 1900px) and (max-width: 2200px) { 
+    .wild-s4-central-prize_size {
+        height: 38vw;
+    }
+
+    .wild-central-cup__img_size {
+        width: 5.6vw;
+    }
+
+    .wild-central-cup__numbers {
+        font-size: 1.6vw;
     }
 }
