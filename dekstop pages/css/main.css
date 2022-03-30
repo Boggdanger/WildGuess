@@ -269,12 +269,22 @@ input{
     .wild-s0-central-survey-txt__regular {
         font-size: 3.68vw;
     }
+
+    .wild-s0-central-survey-logo_1280 {
+        width: 33vw !important;
+    }
     
 }
 
 @media (min-width: 1900px) and (max-width: 2000px) { 
     .wild-s0-central-survey-logo {
         width: 26vw;
+    }
+}
+
+@media (min-width: 2000px) { 
+    .wild-s0-central-survey-logo {
+        width: 23vw;
     }
 }
 
@@ -522,6 +532,15 @@ input{
     }
 }
 
+@media (orientation: portrait) { 
+    .wild-s1-central-dialogue__txt {
+        font-size: 2.2vw;
+        width: 63vw;
+        top: 2.3vh;
+        right: 4vw;
+    }
+}
+
 /* WILD-s3-central-guide-1 start */
 .wild-s3-central-guide-1 {
     padding: 3vh 0 8vh;
@@ -556,12 +575,17 @@ input{
 .rating {
     display: flex;
     margin-right: auto;
-    padding-left: 4vh;
+    margin: 0 auto;
     margin-top: 6vh;
 }
 
-.rating__wrapper {
-    width: 36vw;
+.rating__wrapper:nth-child(1) {
+    width: 32vw;
+    margin-right: 40px;
+}
+
+.rating__wrapper:nth-child(2) {
+    width: 43.4vw;
 }
 
 .rating__title {
@@ -772,6 +796,10 @@ input{
         margin-top: 3.2vh;
     }
 
+    .rating__wrapper:nth-child(1) {
+        width: 26vw;
+    }
+
     .circle_50 {
         width: 3.5vw;
         height: 3.5vw;
@@ -795,6 +823,33 @@ input{
     .circle_70 {
         width: 4.5vw;
         height: 4.5vw;
+    }
+}
+
+@media (min-width: 1900px) {
+    .rating__wrapper:nth-child(1) {
+        width: 25vw;
+        margin-right: 65px;
+    }
+
+    .rating__line {
+        width: 0.25vw;
+    }
+}
+
+@media (orientation: portrait) { 
+    .rating__line {
+        height: 37vh;
+        width: 0.45vw;
+        margin-top: 2.5vh;
+    }
+
+    .rating-item__number {
+        height: 5vh;
+    }
+
+    .wild-s3-central-guide-1 {
+        padding: 3vh 0 16vh;
     }
 }
 
@@ -1004,13 +1059,16 @@ input{
     margin-top: 2vh;
     font-size: 2.4vw;
     font-weight: 800;
-    width: 55vw;
 }
 
 .wild-card-closet-answer__desc {
     font-style: italic;
     font-size: 2.6vw;
     margin-left: 1vh;
+}
+
+.wild-card-closet-answer__desc_margin {
+    margin-right: 1vw;
 }
 
 .wild-central-cup {
@@ -1076,7 +1134,6 @@ input{
 
     .wild-card-closet-answer {
         font-size: 1.4vw;
-        width: 36vw;
     }
 
     .wild-card-closet-answer__desc {
@@ -1132,6 +1189,10 @@ input{
 @media (min-width: 1900px) and (max-width: 2200px) { 
     .wild-s4-central-card-image_margin {
         width: 30vw;
+    }
+
+    .wild-central-cup__numbers {
+        top: 0.1vh;
     }
 }
 

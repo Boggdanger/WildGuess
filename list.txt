@@ -1,0 +1,59 @@
++WILD-help-1
++WILD-my-team-guide
++WILD-my-team-popup
++WILD-s0-central-survey
++ WILD-s0-central-trivia               -проверить
++ WILD-s0-device-survey-q10-multiple    -переделать инпут тайп радио
++ WILD-s0-device-survey-q10-numeric
++ WILD-s0-device-survey-start
++ WILD-s0-device-trivia
++ WILD-s1-central
++ WILD-s1-device-a
++ WILD-s1-device-q-guide
++ WILD-s2-device
++ WILD-s3-central-guide-1
++ WILD-s3-device-guide-1
++ WILD-s4-central-card-1
++ WILD-s4-central-card-2
++ WILD-s4-central-card-3-guide-2
+- WILD-s4-central-card-4
++ WILD-s4-device-card-2
++ WILD-s5-device
+
+
+
+@media (orientation: portrait) { 
+    .wild-s1-central {
+        padding: 6vh 0 30vh;
+    }
+}
+
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s0-central-survey.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s0-central-trivia.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s1-central.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s3-central-guide-1.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s4-central-card-1.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s4-central-card-2.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s4-central-card-3-guide-2.html
+http://www.magicbox.net.ua/WildGuess/dekstop-pages/WILD-s4-central-card-4.html
+
+
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-help-1.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-my-team-guide.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-my-team-popup.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s0-device-survey-q10-multiple.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s0-device-survey-q10-numeric.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s0-device-survey-start.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s0-device-trivia.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s1-device-a.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s1-device-q-guide.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s2-device.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s3-device-guide-1.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s4-device-card-2.html
+http://www.magicbox.net.ua/WildGuess/device%20pages-var2/WILD-s5-device.html
+
+
+
+
+
+
